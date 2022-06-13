@@ -1,0 +1,17 @@
+
+
+main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.button-container button {
+    margin: 0 10px;
+}

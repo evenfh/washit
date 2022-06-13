@@ -1,0 +1,34 @@
+
+.container {
+    width: 900px;
+    position: relative;
+    height: 100px;
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    margin: 0 20px;
+}
+
+.reservationRect {
+    height: 90%;
+    background-color: red;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    border-radius: 5px;
+    transform: translateY(-50%);
+}
+
+.hourIndicator {
+    position: absolute;
+    top: -40px;
+}
+
+.selectionRect {
+    position: absolute;
+    height: 90%;
+    background-color: rgba(0,0,0,0.2);
+    top: 50%;
+    border-radius: 5px;
+    min-width: 40px;
+    transform: translateY(-50%);
+}
