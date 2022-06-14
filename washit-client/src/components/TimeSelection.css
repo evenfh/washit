@@ -29,6 +29,5 @@
     background-color: rgba(0,0,0,0.2);
     top: 50%;
     border-radius: 5px;
-    min-width: 40px;
     transform: translateY(-50%);
 }

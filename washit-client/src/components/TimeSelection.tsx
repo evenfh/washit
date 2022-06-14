@@ -81,6 +81,7 @@ function TimeSelection(props: TimeSelectionProps) {
             className='container'
             onMouseLeave={() => setSelectionVisible(false)}
             onMouseMove={onMouseMove}
+            onClick={onReserveClicked}
         >
             {
                 Array.from({ length: 12 }, (_, i) => i*2).map(hour => <div className='hourIndicator' style={{ left: `${getHourPositionPX(hour/2)}px` }}>{getHourIndicator(hour)}</div>)
