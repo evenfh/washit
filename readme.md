@@ -2,7 +2,7 @@
 
 # Del 1:
 
-For å begrense problemet litt antar at det bare er mulig å reservere en vask 24 timer frem i tid. Videre så har jeg heller ikke implementert noen form for brukerhåndtering.
+For å begrense problemet litt antar jeg at det bare er mulig å reservere en vask 24 timer frem i tid. Videre så har jeg heller ikke implementert noen form for brukerhåndtering.
 
 Har implementert et enkelt API med .NET, samt en klient implementert med React som gjør det mulig å reservere vaskemaskiner basert på type vask. Jeg har ikke implementert venteliste på klienten, men har implementert dette på API'et.
 
